@@ -1,0 +1,50 @@
+/* para descobrir o IMC */
+#formImc {
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#seuImc {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+}
+
+#altura , #peso {
+    width: 180px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#enviarImc {
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#resetImc {
+    background-color: rgb(165, 193, 247);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.button {
+    padding: 20px;
+}
+
+#enviarImc:hover {
+background-color: aquamarine;
+}
+
+#resultadoImc {
+    text-align: center;
+}
